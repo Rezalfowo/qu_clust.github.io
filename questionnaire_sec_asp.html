@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="en dir-ltr  no-js "><head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/yiistrap.min.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/select2.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/select2-bootstrap.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/printable.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/noto.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/survey.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/embeddables.min.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/template-core.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/awesome-bootstrap-checkbox.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/base.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/theme.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/noTablesOnMobile.css">
+<link rel="stylesheet" type="text/css" href="questionnaire_sec_asp_files/custom.css">
+<script type="text/javascript">window.debugState = {frontend : (0 === 1), backend : (0 === 1)};</script><script type="text/javascript" src="questionnaire_sec_asp_files/jquery-3.6.1.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/jquery-migrate-3.4.0.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/bootstrap.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/bootstrapconfirm.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/select2.full.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/lslog.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/pjax.combined.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/moment-with-locales.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/em_javascript.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/pjax.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/survey.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/template-core.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/theme.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/ajaxify.js" class="headScriptTag"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/custom.js" class="headScriptTag"></script>
+<title>Étude de l'Université Toulouse - Jean Jaurès - Questionnaire on Security Aspects</title>
+    </head>
+    <body><script type="text/javascript" src="questionnaire_sec_asp_files/adminbasics.min.js"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/printable.js"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/decimal.js"></script>
+<script type="text/javascript" src="questionnaire_sec_asp_files/decimalcustom.js"></script>
+<script type="text/javascript" id="lemscripts">
+/*<![CDATA[*/
+var LEMmode='survey';
+var LEMgseq='';
+ExprMgr_process_relevance_and_tailoring = function(evt_type,sgqa,type){
+if (typeof LEM_initialized == 'undefined') {
+LEM_initialized=true;
+LEMsetTabIndexes();
+}
+if (evt_type == 'onchange' && (typeof last_sgqa !== 'undefined' && sgqa==last_sgqa) && (typeof last_evt_type !== 'undefined' && last_evt_type == 'TAB' && type != 'checkbox')) {
+  last_evt_type='onchange';
+  last_sgqa=sgqa;
+  return;
+}
+if (evt_type == 'updated'  && (typeof last_sgqa !== 'undefined' && sgqa==last_sgqa)) {
+  last_evt_type='updated';
+  last_sgqa=sgqa;
+  return;
+}
+last_evt_type = evt_type;
+last_sgqa=sgqa;
+  relChange1349129=false;
+  relChange1349130=false;
+  relChange1349131=false;
+  relChange1349132=false;
+  relChange1349133=false;
+  relChange1349134=false;
+  relChange1349135=false;
+  relChange1349136=false;
+  relChange1349137=false;
+  relChange1349138=false;
+  relChange1349139=false;
+  relChange1349140=false;
+  relChangeG0=false;
+  relChangeG1=false;
+  relChangeG2=false;
+  relChangeG3=false;
+  relChangeG4=false;
+  LEMrel1349129(sgqa);
+  LEMrel1349130(sgqa);
+
+}
+function LEMrel1349129(sgqa){
+  var UsesVars = '  java467882X59559X1349129 ';
+  if (typeof sgqa !== 'undefined' && !LEMregexMatch('/ java' + sgqa + ' /', UsesVars) && !(relChangeG0)) {
+    return;
+  }
+
+if (1)
+{
+  LEMval1349129(sgqa);
+  relChange1349129=true;
+  $('#relevance1349129').val('1');
+}
+$('#relevance1349129').val('1');  // always true
+}
+
+function LEMrel1349130(sgqa){
+  var UsesVars = '  java467882X59559X1349130 ';
+  if (typeof sgqa !== 'undefined' && !LEMregexMatch('/ java' + sgqa + ' /', UsesVars) && !(relChangeG0)) {
+    return;
+  }
+
+if (1)
+{
+  LEMval1349130(sgqa);
+  relChange1349130=true;
+  $('#relevance1349130').val('1');
+}
+$('#relevance1349130').val('1');  // always true
+}
+function LEMval1349129(sgqa){
+  isValidSum1349129=true;
+  isValidOther1349129=true;
+  isValidOtherComment1349129=true;
+
+  if((((LEMis_numeric(LEMval('467882X59559X1349129.NAOK') ) || LEMempty(LEMval('467882X59559X1349129.NAOK') ))))){
+    $('#vmsg_1349129_default').trigger('classChangeGood');
+  }
+  else {
+    $('#vmsg_1349129_default').trigger('classChangeError');
+    isValidOther1349129=false;
+  }
+
+  if(isValidSum1349129){
+    $('#totalvalue_1349129').trigger('classChangeGood');
+  }
+  else {
+    $('#totalvalue_1349129').trigger('classChangeError');
+  }
+
+  if(isValidOther1349129){
+    $('#question1349129 :input').addClass('em_sq_validation').trigger('classChangeGood');
+  }
+  else {
+    $('#question1349129 :input').addClass('em_sq_validation').trigger('classChangeError');
+  }
+}
+
+function LEMval1349130(sgqa){
+  isValidSum1349130=true;
+  isValidOther1349130=true;
+  isValidOtherComment1349130=true;
+
+  if((((LEMis_numeric(LEMval('467882X59559X1349130.NAOK') ) || LEMempty(LEMval('467882X59559X1349130.NAOK') ))))){
+    $('#vmsg_1349130_default').trigger('classChangeGood');
+  }
+  else {
+    $('#vmsg_1349130_default').trigger('classChangeError');
+    isValidOther1349130=false;
+  }
+
+  if(isValidSum1349130){
+    $('#totalvalue_1349130').trigger('classChangeGood');
+  }
+  else {
+    $('#totalvalue_1349130').trigger('classChangeError');
+  }
+
+  if(isValidOther1349130){
+    $('#question1349130 :input').addClass('em_sq_validation').trigger('classChangeGood');
+  }
+  else {
+    $('#question1349130 :input').addClass('em_sq_validation').trigger('classChangeError');
+  }
+}
+var LEMalias2varName = {
+'G01Q01':'java467882X59559X1349129',
+'467882X59559X1349129':'java467882X59559X1349129',
+'G01Q02':'java467882X59559X1349130',
+'467882X59559X1349130':'java467882X59559X1349130'};
+var LEMvarNameAttr = {
+'java467882X59559X1349129':{ 'jsName':'java467882X59559X1349129','jsName_on':'answer467882X59559X1349129','sgqa':'467882X59559X1349129','qid':1349129,'gid':59559,'type':'N','default':'','rowdivid':'','onlynum':'1','gseq':0},
+'java467882X59559X1349130':{ 'jsName':'java467882X59559X1349130','jsName_on':'answer467882X59559X1349130','sgqa':'467882X59559X1349130','qid':1349130,'gid':59559,'type':'N','default':'','rowdivid':'','onlynum':'1','gseq':0}};
+
+/*]]>*/
+</script>
+
+
+        <x-test id="action::printableSurvey"></x-test>
+
+    <div id="limesurvey">
+            <h1>Questionnaire on Security Aspects</h1>
+
+            <div class="survey-description"></div>
+
+            <div class="survey-welcome"><p><strong>Interplay of Human Factors and Secure Architecture Design using Model-Driven Engineering</strong></p><p style="text-align: justify;">In
+ the context of a PhD program, we aim to define Human Factors Models 
+characterizing the development team awareness through several different 
+categories related to their direct and indirect human factors.<br>The 
+awareness of individual team members, and the team as a whole, is 
+characterized based on different human-related factors such as 
+familiarity, capability, riskiness, etc. with respect to technical 
+security mechanisms, policies and procedures, and the adoption of 
+security best practices, for example.</p><p style="text-align: justify;">One
+ way in which to build the Human Factors Models is to create a set of 
+development team profiles using the results of questionnaires completed 
+by the development team members involved in the project.</p><p style="text-align: justify;">We
+ are conducting a survey to evaluate the security-relevant human factors
+ on the three following security objectives : Confidentiality, 
+Integrity, Availability (<strong>CIA</strong>) using measurements of specific human factors.</p><p style="text-align: justify;">In the context of our study, the system architecture is described using the following concepts :</p><ul><li style="text-align: justify;">A <strong>Passive Component</strong> represents components that do not perform any actions in the system by their own volition.</li><li style="text-align: justify;">An <strong>Active Component</strong> represents components performing actions in the system.</li><li style="text-align: justify;">A <strong>Connector</strong>
+ specifies a link that enables communication between interaction points 
+on components by allowing the exchange of communication artifacts.</li></ul><p></p><p style="text-align: justify;">The
+ questionnaire is composed of four sections : general questions about 
+security, Direct Factors with its three subcategories sections : Skill, 
+Perception, Capability with questions on CIA security objectives.</p><p style="text-align: justify;">You will be able to give feedback at the end of the questionnaire.</p></div>
+
+            <p class="x-questions">There are 12 questions in this survey.</p>
+
+                                            <div class="survey-group ">
+    <h2>General</h2>
+    <div class="group-desc">
+        
+    </div>
+                    <div id="question" class="numeric question-wrapper">
+    <div class="q-text">
+        <h3> <p style="font-variant: normal; font-style: normal; font-weight: normal; line-height: 138%; margin-bottom: 0in; text-decoration: none"><strong><font color="#000000"><font face="Arial, sans-serif"><font size="2" style="font-size: 15pt"><span style="background: transparent">How many years of experience do you have in security in IT projects ?</span></font></font></font></strong>
+            <span class="mandatory"></span>
+        </p></h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help"><div id="vmsg_1349129_default" class="ls-question-message ls-em-tip em_default">
+    <span class="fa fa-exclamation-circle" aria-hidden="true"></span>
+   Only numbers may be entered in this field.
+</div>
+</div><div class="tip-help">Please write your answer here:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        <ul class="list-print-answers list-unstyled">
+	<li>
+		<span></span>
+		<div class="form-control print-control input-text" style="height:3em;" title="&lt;div class=&quot;tip-help&quot;&gt;&lt;div id='vmsg_1349129_default' class='ls-question-message ls-em-tip em_default'&gt;
+    &lt;span class='fa fa-exclamation-circle' aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+   Only numbers may be entered in this field.
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot;tip-help&quot;&gt;Please write your answer here:&lt;/div&gt;"><span></span></div>
+		<span></span>
+		</li>
+	</ul>
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="numeric question-wrapper">
+    <div class="q-text">
+        <h3> <p style="font-variant: normal; font-style: normal; font-weight: normal; line-height: 138%; margin-bottom: 0in; text-decoration: none"><strong><font color="#000000"><font face="Arial, sans-serif"><font size="2" style="font-size: 15pt"><span style="background: transparent">How many IT projects have you worked on ?</span></font></font></font></strong>
+            <span class="mandatory"></span>
+        </p></h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help"><div id="vmsg_1349130_default" class="ls-question-message ls-em-tip em_default">
+    <span class="fa fa-exclamation-circle" aria-hidden="true"></span>
+   Only numbers may be entered in this field.
+</div>
+</div><div class="tip-help">Please write your answer here:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        <ul class="list-print-answers list-unstyled">
+	<li>
+		<span></span>
+		<div class="form-control print-control input-text" style="height:3em;" title="&lt;div class=&quot;tip-help&quot;&gt;&lt;div id='vmsg_1349130_default' class='ls-question-message ls-em-tip em_default'&gt;
+    &lt;span class='fa fa-exclamation-circle' aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+   Only numbers may be entered in this field.
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot;tip-help&quot;&gt;Please write your answer here:&lt;/div&gt;"><span></span></div>
+		<span></span>
+		</li>
+	</ul>
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+                                            <div class="survey-group ">
+    <h2>Direct Factor - Skill</h2>
+    <div class="group-desc">
+        <ul>
+    </ul></div>
+                    <div id="question" class="array-flexible-row question-wrapper">
+    <div class="q-text">
+        <h3> <strong>Did you use Confidentiality (e.g., cryptography,...) mechanisms in your previous projects in the context of :</strong>
+            <span class="mandatory"></span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:15%;">Yes, where available (more than 50% of the projects)</th>
+			<th style="width:15%;">Yes, sometimes (between 20 % and 50% of the projects)</th>
+			<th style="width:15%;">Yes, rarely (less than 20% of the projects)</th>
+			<th style="width:15%;">No (0% of the projects)</th>
+			<th style="width:15%;">I don't know</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Passive Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Active Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Connector</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row question-wrapper">
+    <div class="q-text">
+        <h3> <strong>Did you use Integrity (e.g., digital signatures,...) mechanisms in your previous projects in the context of :</strong>
+            <span class="mandatory"></span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:15%;">Yes, where available (more than 50% of the projects)</th>
+			<th style="width:15%;">Yes, sometimes (between 20 % and 50% of the projects)</th>
+			<th style="width:15%;">Yes, rarely (less than 20% of the projects)</th>
+			<th style="width:15%;">No (0% of the projects)</th>
+			<th style="width:15%;">I don't know</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Passive Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Active Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Connector</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row question-wrapper">
+    <div class="q-text">
+        <h3> <strong>Did you use Availability (e.g., filtering,...) mechanisms in your previous projects in the context of :</strong>
+            <span class="mandatory"></span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:15%;">Yes, where available (more than 50% of the projects)</th>
+			<th style="width:15%;">Yes, sometimes (between 20 % and 50% of the projects)</th>
+			<th style="width:15%;">Yes, rarely (less than 20% of the projects)</th>
+			<th style="width:15%;">No (0% of the projects)</th>
+			<th style="width:15%;">I don't know</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Passive Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Active Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Connector</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+                                            <div class="survey-group ">
+    <h2>Direct Factor - Perception</h2>
+    <div class="group-desc">
+        <ul>
+    </ul></div>
+                    <div id="question" class="array-flexible-row question-wrapper">
+    <div class="q-text">
+        <h3> <strong>How did you perceive the Confidentiality (e.g., 
+cryptography,...) mechanisms used in the majority of your previous 
+project in the context of :</strong>
+            <span class="mandatory"></span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:15%;">Excellent</th>
+			<th style="width:15%;">Good</th>
+			<th style="width:15%;">Satisfactory</th>
+			<th style="width:15%;">To be improved</th>
+			<th style="width:15%;">I didn't faced this problem</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Passive Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Active Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Connector</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row question-wrapper">
+    <div class="q-text">
+        <h3> <strong>How did you perceive the Integrity (e.g., digital 
+signatures,...) mechanisms used in the majority of your previous project
+ in the context of :</strong>
+            <span class="mandatory"></span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:15%;">Excellent</th>
+			<th style="width:15%;">Good</th>
+			<th style="width:15%;">Satisfactory</th>
+			<th style="width:15%;">To be improved</th>
+			<th style="width:15%;">I didn't faced this problem</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Passive Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Active Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Connector</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row question-wrapper">
+    <div class="q-text">
+        <h3> <strong>How did you perceive the Availability (e.g., 
+filtering,...) mechanisms used in the majority of your previous project 
+in the context of :</strong>
+            <span class="mandatory"></span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:15%;">Excellent</th>
+			<th style="width:15%;">Good</th>
+			<th style="width:15%;">Satisfactory</th>
+			<th style="width:15%;">To be improved</th>
+			<th style="width:15%;">I didn't faced this problem</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Passive Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Active Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Connector</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+                                            <div class="survey-group ">
+    <h2>Direct Factor - Capability</h2>
+    <div class="group-desc">
+        <ul>
+    </ul></div>
+                    <div id="question" class="array-flexible-row question-wrapper">
+    <div class="q-text">
+        <h3> <strong>How have you developed Confidentiality (e.g., 
+cryptography,...) solutions in the majority of your previous project in 
+the context of :</strong>
+            <span class="mandatory"></span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:15%;">On my own independently</th>
+			<th style="width:15%;">With the help of others (colleagues, external help, internet)</th>
+			<th style="width:15%;">I reused an existing solution off the shelf</th>
+			<th style="width:15%;">I delegated the task to colleagues</th>
+			<th style="width:15%;">I haven't experienced this problem</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Passive Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Active Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Connector</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row question-wrapper">
+    <div class="q-text">
+        <h3> <strong>How have you developed Integrity (e.g., digital 
+signatures,...) solutions in the majority of your previous project in 
+the context of :</strong>
+            <span class="mandatory"></span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:15%;">On my own independently</th>
+			<th style="width:15%;">With the help of others (colleagues, external help, internet)</th>
+			<th style="width:15%;">I reused an existing solution off the shelf</th>
+			<th style="width:15%;">I delegated the task to colleagues</th>
+			<th style="width:15%;">I haven't experienced this problem</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Passive Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Active Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Connector</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row question-wrapper">
+    <div class="q-text">
+        <h3> <strong>How have you developed Availability (e.g., filtering,...) solutions in the majority of your previous project in the context of :</strong>
+            <span class="mandatory"></span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:15%;">On my own independently</th>
+			<th style="width:15%;">With the help of others (colleagues, external help, internet)</th>
+			<th style="width:15%;">I reused an existing solution off the shelf</th>
+			<th style="width:15%;">I delegated the task to colleagues</th>
+			<th style="width:15%;">I haven't experienced this problem</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Passive Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Active Component</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Connector</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+                                            <div class="survey-group ">
+    <h2>Feedback</h2>
+    <div class="group-desc">
+        
+    </div>
+                    <div id="question" class="text-long question-wrapper">
+    <div class="q-text">
+        <h3> Feedback on this questionnaire, if there is things to 
+improve, need to be more clear, things you didn't understand or anything
+ else :
+            <span class="mandatory"></span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please write your answer here:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        <div class="form-control print-control input-textarea" style="height:11em;" title="&lt;div class=&quot;tip-help&quot;&gt;Please write your answer here:&lt;/div&gt;"><span></span></div>
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+            
+            
+            
+            <p class="submit-by">
+                <br>
+                <br>
+                Submit your survey.<br>
+                Thank you for completing this survey.<br>
+            </p>
+
+        </div>
+    <script type="text/javascript" src="questionnaire_sec_asp_files/embeddables.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+            try{ 
+                triggerEmClassChange(); 
+            } catch(e) {
+                console.ls.warn('triggerEmClassChange could not be run. Is survey.js correctly loaded?');
+            }
+
+triggerEmRelevance();
+jQuery(document).off('pjax:scriptcomplete.mainBottom').on('ready pjax:scriptcomplete.mainBottom', function() {
+updateMandatoryErrorClass();
+});
+/*]]>*/
+</script>
+
+
+</body></html>
